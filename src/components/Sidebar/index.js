@@ -9,10 +9,10 @@ import { faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icon
 function Sidebar() {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      {/* <Link className="logo" to="/">
         <img alt="logo" src={LogoS} />
         <img className="sub-logo" alt="logo" src={LogoSubtitle} />
-      </Link>
+      </Link> */}
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
